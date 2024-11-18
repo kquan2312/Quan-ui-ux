@@ -7,20 +7,34 @@
 
     }
 
-    .sidebar {
+    .user_login p {
+        margin-left: 84px;
+        margin-right: 84px;
+    }
 
-        width: 30.54%;
+    .sidebar {
+        width: 254px;
+        /* height: 927px; */
         display: block;
         font-size: 16px;
     }
 
+    .sidebar_items p {
+        font-size: 20px;
+        margin-left: 0px;
+    }
 
     .sidebar_items img {
 
-        margin-left: 4px;
-
         margin-bottom: 1px;
+        margin-right: 17px;
 
+
+    }
+
+    .sidebar_items {
+        padding-left: 6px;
+        margin-left: 22px;
     }
 
     .bag {
@@ -28,7 +42,7 @@
     }
 
     .ava {
-        margin-left: 10px;
+        margin: 13px 93p 94px 14px;
         width: 67px;
         height: 67px;
     }
@@ -44,10 +58,17 @@
         height: 39px;
     }
 
+    .sidebar {
+        width: 254px;
+    }
+
     .logo {
         width: 87px;
         height: 87px;
-        margin-left: 70px;
+        margin-left: 86px;
+        margin-top: 12px;
+        /* margin-right: 47.5px; */
+        margin-bottom: 14px;
     }
 
     .footer p:first-child {
@@ -93,7 +114,9 @@
     }
 
     .content_items {
-        width: 353px;
-        height: 192px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        /* Hiệu ứng box-shadow */
     }
+
+
 }

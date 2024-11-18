@@ -25,11 +25,11 @@ footer {
 
     background-color: rgba(32, 23, 212, 0.77);
     width: 100%;
-    height: 132px;
+    height: 150px;
     display: flex;
     justify-content: space-evenly;
 
-    align-items: center;
+    align-items: baseline;
     color: #fcfcfc;
 }
 
@@ -39,8 +39,10 @@ footer {
 }
 
 .footer p:first-child {
+    display: flex;
+    align-items: center;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .footer p {
@@ -106,14 +108,15 @@ footer {
     /* display: flex; */
     font-size: 18px;
     background-color: #FFFFFF;
-    width: 20%;
+    width: 18.88%;
+    margin-right: 7px;
 
 }
 
 .content {
     float: right;
     width: 75%;
-    margin-left: 16px;
+
     background-color: #FFFFFF;
 
 }
@@ -124,6 +127,7 @@ footer {
     padding: 24px 0px 24px 36px;
     align-items: center;
     margin-bottom: 1px;
+
 
 }
 
@@ -185,9 +189,12 @@ div.main {
     justify-content: space-between;
 }
 
+
+
 .content_items {
     display: flex;
     justify-content: flex-start;
+    align-content: space-between;
     align-items: center;
     margin-bottom: 33px;
     background-color: #F5F5F5;
@@ -204,8 +211,22 @@ div.main {
 
 }
 
+.info {
+    line-height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact_shop {
+    display: flex;
+    align-items: center;
+}
+
 .content_items p,
 a {
+
+    /* margin-bottom: 25px; */
     font-size: 24px;
     margin-left: 32px;
 }
@@ -213,9 +234,11 @@ a {
 .content_items a {
     color: #0400fa;
     margin-left: 13px;
+    margin-top: 23px;
 }
 
 .content_items img {
+    margin-top: 23px;
     margin-left: 32px;
 }
 
@@ -225,6 +248,7 @@ a {
 }
 
 .sidebar_items:hover {
+    /* font-weight: bold; */
     background-color: #524ADC;
     cursor: pointer;
     color: #FFFFFF;
@@ -239,21 +263,21 @@ a {
     align-items: center;
 }
 
-/* .content_header_items:hover {
-    text-decoration: underline;
-    bottom: -2px;
 
-    left: -10px;
-
-    right: -10px;
-
-
-} */
 .content_header_items {
+
     position: relative;
     /* Đặt phần tử cha có position relative */
     text-decoration: none;
     /* Loại bỏ đường gạch dưới mặc định */
+
+}
+
+.content_header p:hover {
+    font-weight: bold;
+    transition: font-weight 0.3s ease;
+    /* Hiệu ứng mượt khi hover */
+    /* Chữ in đậm khi hover */
 }
 
 
@@ -273,6 +297,7 @@ a {
     /* Độ dày của đường gạch dưới */
     background-color: black;
     /* Màu sắc của đường gạch dưới */
+
 }
 
 
@@ -284,7 +309,8 @@ a {
 }
 
 .warning {
-    font-size: 15px;
+    font-size: 20px;
+    color: #E54A2F;
 }
 
 .payment {
