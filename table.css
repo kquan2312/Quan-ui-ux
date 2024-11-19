@@ -10,13 +10,15 @@
     .user_login p {
         margin-left: 84px;
         margin-right: 84px;
+        ;
     }
 
     .sidebar {
-        width: 254px;
-        /* height: 927px; */
+        width: 30.45%;
+        /* height: 77.63%; */
+        height: auto;
         display: block;
-        font-size: 16px;
+
     }
 
     .sidebar_items p {
@@ -42,7 +44,7 @@
     }
 
     .ava {
-        margin: 13px 93p 94px 14px;
+        margin: 13px 93px 14px 94px;
         width: 67px;
         height: 67px;
     }
@@ -74,6 +76,7 @@
     .footer p:first-child {
         align-items: center;
         font-size: 15px;
+        margin-top: 31px;
     }
 
     .footer img {
@@ -118,5 +121,16 @@
         /* Hiệu ứng box-shadow */
     }
 
+    div.content_header {
+        margin: 34px 36px 36px 36px;
+    }
+
+    .content_footer {
+        margin-top: 352px;
+    }
+
+    div.contact_shop a {
+        margin-bottom: 0px;
+    }
 
 }
