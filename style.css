@@ -12,6 +12,8 @@
     height: 132px;
     display: flex;
     justify-content: space-between;
+    max-width: 1440px;
+    /* min-width: 440px; */
 }
 
 .header_item {
@@ -209,7 +211,8 @@ div.main {
 }
 
 .content_items>img {
-    margin: 10px;
+    margin-top: 5px;
+    margin-left: 24px;
 }
 
 .content_items div :hover {
@@ -236,28 +239,28 @@ div.main {
     margin-left: 32px;
 }
 
-img#product {
+F img#product {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 
-/* .contact_shop {
-    display: flex;
-    align-items: center;
-} */
+.contact_shop img {
+    margin-left: 32px;
+    margin-top: 20px;
+}
 
 
 .content_items a {
     color: #524ADC;
     margin-left: 13px;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
-.content_items img {
-    margin-top: 35px;
-    margin-left: 32px;
-}
+/* .content_items img {
+    margin-top: 14px;
+    margin-left: 21px;
+} */
 
 .content_footer {
     margin-bottom: 22px;

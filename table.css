@@ -10,7 +10,12 @@
     .user_login p {
         margin-left: 84px;
         margin-right: 84px;
-        ;
+
+    }
+
+    #user {
+        margin-right: 42px;
+        margin-left: 53px;
     }
 
     .sidebar {
@@ -49,9 +54,17 @@
         height: 67px;
     }
 
+    .header {
+        max-width: 834px;
+        min-width: 440px;
+    }
+
     .header_items_2 img {
         width: 46px;
         height: 46px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 43.5px;
     }
 
     div.header_item_search {
@@ -59,6 +72,8 @@
         width: 386px;
         height: 39px;
     }
+
+
 
     .sidebar {
         width: 254px;
@@ -156,4 +171,7 @@
         margin-top: 10px;
     }
 
+    .content {
+        width: 100%-254px;
+    }
 }
