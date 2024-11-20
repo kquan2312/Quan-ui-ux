@@ -8,13 +8,18 @@
     }
 
     .user_login p {
+        font-size: 16px;
         margin-left: 84px;
         margin-right: 84px;
 
     }
 
+    footer {
+        height: 154px;
+    }
+
     #user {
-        margin-right: 42px;
+        /* margin-right: 42px; */
         margin-left: 53px;
     }
 
@@ -49,7 +54,7 @@
     }
 
     .ava {
-        margin: 13px 93px 14px 94px;
+        margin: 0px 93px 14px 94px;
         width: 67px;
         height: 67px;
     }
@@ -64,13 +69,20 @@
         height: 46px;
         display: flex;
         justify-content: space-around;
-        margin-left: 43.5px;
+
     }
 
     div.header_item_search {
         margin-left: 47.5px;
         width: 386px;
         height: 39px;
+    }
+
+    .header_item_search input {
+        width: 169px;
+        ;
+        height: 19px;
+        ;
     }
 
 
@@ -82,7 +94,7 @@
     .logo {
         width: 87px;
         height: 87px;
-        margin-left: 86px;
+        margin-left: 83px;
         margin-top: 12px;
         /* margin-right: 47.5px; */
         margin-bottom: 14px;
@@ -92,6 +104,7 @@
         align-items: center;
         font-size: 15px;
         margin-top: 31px;
+        line-height: 22px;
     }
 
     .footer img {
@@ -102,6 +115,11 @@
     .footer p {
         font-size: 8px;
 
+    }
+
+    .contact_shop a {
+        text-underline-offset: 6px;
+        /* Khoảng cách với chữ */
     }
 
     .price {
@@ -136,6 +154,8 @@
     }
 
     .content_items {
+        width: 533px;
+        height: 192px;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
         /* Hiệu ứng box-shadow */
     }
@@ -153,6 +173,14 @@
     } */
     .content_items a {
         margin-top: 21px;
+    }
+
+    #product {
+        margin-top: 14px;
+        margin-bottom: 15px;
+        margin-left: 3px;
+        width: 134px;
+        height: 163px;
     }
 
     .contact_shop img {
