@@ -156,6 +156,8 @@ footer {
 
 body {
     margin: 0px auto;
+    max-width: 1440px;
+    width: 100%;
 }
 
 
@@ -216,8 +218,13 @@ div.main {
     background-color: #F5F5F5;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: #F5F5F5;
     padding: 5px 0px 5px 24px;
+    margin-bottom: 33px;
+
 }
+
+.content_body {}
 
 /* .content_items>img {
     margin-top: 5px;
@@ -235,7 +242,7 @@ div.main {
     line-height: 29px;
     display: flex;
     flex-direction: column;
-    justify-content: space- space-evenly;
+    justify-content: space-evenly;
 
 }
 
